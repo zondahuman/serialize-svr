@@ -36,7 +36,7 @@ public class AvroSerializerTest {
     }
 
     @Test
-    public void testFst2() throws IOException {
+    public void testAvro2() throws IOException {
         Integer param = 500;
         System.out.println("param=" + JsonUtil.toJson(param));
         AvroSerialize avroSerialize = new AvroSerialize();
