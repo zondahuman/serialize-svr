@@ -16,9 +16,7 @@ import java.io.IOException;
  * Created by abin on 2018/4/15 18:05.
  * serialize-svr
  * com.abin.lee.serialize.avro
- * https://unmi.cc/apache-avro-serializing-deserializing/#more-7488
  * https://blog.csdn.net/hua245942641/article/details/50724360
- * 貌似还有些问题
  */
 public class AvroSerialization {
 
