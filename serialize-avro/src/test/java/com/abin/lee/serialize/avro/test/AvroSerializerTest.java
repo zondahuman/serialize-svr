@@ -31,7 +31,7 @@ public class AvroSerializerTest {
         byte[] result1 = AvroSerializer.serialize(user);
         System.out.println("result1=" + result1);
         User userResult =  AvroSerializer.deserialize(result1);
-        System.out.println("userResult=" + JsonUtil.toJson(userResult));
+        System.out.println("userResult=" + userResult);
 
     }
 
