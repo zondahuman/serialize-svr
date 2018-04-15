@@ -14,6 +14,7 @@
         <module>serialize-hession</module>
         <module>serialize-fst</module>
         <module>serialize-common</module>
+        <module>serialize-avro</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -45,6 +46,13 @@
 
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.caucho/hessian -->
         <dependency>
             <groupId>com.caucho</groupId>
